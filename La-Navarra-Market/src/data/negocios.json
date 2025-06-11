@@ -1,0 +1,16 @@
+[
+  {
+    "nombre": "Safari Familiar Virtual Shop",
+    "logo": "/logos/SafariLogo.png",
+    "pdf": "/pdfs/SafariFamilyShop.pdf",
+    "whatsapp": "https://wa.me/573001112233",
+    "instagram": "https://instagram.com/panaderia"
+  },
+  {
+    "nombre": "Heladería Fresca",
+    "logo": "/logos/heladeria.jpg",
+    "pdf": "/pdfs/menu-heladeria.pdf",
+    "whatsapp": "https://wa.me/573004445566",
+    "instagram": "https://instagram.com/heladeria"
+  }
+]
