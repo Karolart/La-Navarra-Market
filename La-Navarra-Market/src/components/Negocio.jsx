@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import negocios from "../data/negocios.json";
 import { useEffect, useRef, useState } from "react";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf";
-import "../styles/Negocio.css";
+import "../styles/negocio.css";
 
 // Configurar el worker de PDF.js
 import pdfWorker from "pdfjs-dist/build/pdf.worker?worker";
