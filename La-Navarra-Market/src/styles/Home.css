@@ -1,18 +1,46 @@
 .home-container {
+  position: relative;
+  min-height: 100vh;
   padding: 2rem;
-  text-align: center;
-  background-color: #092e0c; /* color suave con sensación natural */
+  background-image: url("../assets/fondo_home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  z-index: 1;
 }
+.home-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* oscurece el fondo */
+  z-index: -1;
+}
+
+
 
 /* Banner */
 .banner {
-  background: linear-gradient(90deg, #8bc34a, #a5d6a7); /* tonos verde suaves */
+  background: rgba(6, 36, 11, 0.685); /* fondo muy suave para dejar ver el fondo natural */
   padding: 2rem 1rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
-  color: rgb(255, 255, 255);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(4px); /* da un efecto como si fuera vidrio contra naturaleza */
 }
+
+
+.banner h1 {
+  color: #c6e441; /* verde intenso como hojas frescas */
+  text-shadow: 
+    0 0 5px #b5ce45,  /* luz difusa clara */
+    0 0 15px #81c784, /* resplandor verde claro */
+    2px 2px 4px rgba(0, 0, 0, 0.3); /* leve sombra para profundidad */;
+  font-size: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 
 .card-list {
   display: flex;
@@ -27,7 +55,7 @@
   width: 200px;
   padding: 1rem;
   text-decoration: none;
-  color: #2e7d32;
+  color: #b8e69a;
   background-color: white;
   transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
@@ -43,4 +71,26 @@
   height: 120px;
   object-fit: cover;
   border-radius: 0.5rem;
+}
+.home-footer {
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #cddccc;
+  background-color: rgba(0, 51, 0, 0.7); /* Verde oscuro translúcido */
+  border-top: 2px solid #4caf50;
+  border-radius: 0.5rem 0.5rem 0 0;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-footer a {
+  color: #c6e441;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-footer a:hover {
+  text-decoration: underline;
+  color: #d4ff75;
 }

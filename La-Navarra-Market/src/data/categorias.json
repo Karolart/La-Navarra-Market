@@ -17,21 +17,31 @@
    {
     "slug": "tecnologia",
     "nombre": "Tecnología",
-    "portada": "/portadas/tecnologia.jpg"
+    "portada": "/portadas/TecnologiaIcon.jpg"
   },
    {
     "slug": "salud",
     "nombre": "Salud",
-    "portada": "/portadas/Salud.jpg"
+    "portada": "/portadas/SaludIcon.jpg"
   },
    {
     "slug": "deporte",
     "nombre": "Deporte",
-    "portada": "/portadas/Deporte.jpg"
+    "portada": "/portadas/DeporteIcon.jpg"
   },
    {
     "slug": "confecciones",
     "nombre": "Confecciones",
-    "portada": "/portadas/confecciones.jpg"
+    "portada": "/portadas/ConfeccionesIcon.jpg"
+  },
+    {
+    "slug": "musica",
+    "nombre": "Música",
+    "portada": "/portadas/MusicaIcon.jpg"
+  },
+    {
+    "slug": "educativo",
+    "nombre": "Educativo-cultural",
+    "portada": "/portadas/EducacionIcon.jpg"
   }
 ]

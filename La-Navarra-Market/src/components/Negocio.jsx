@@ -3,6 +3,8 @@ import negocios from "../data/negocios.json";
 import { useEffect, useRef, useState } from "react";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf";
 import "../styles/Negocio.css";
+import clickSound from "../assets/click.mp3"; // Asegúrate de tener este archivo en esa ruta
+
 
 // Configurar el worker de PDF.js
 import pdfWorker from "pdfjs-dist/build/pdf.worker?worker";
