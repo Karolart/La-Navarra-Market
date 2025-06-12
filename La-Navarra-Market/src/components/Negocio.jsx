@@ -90,7 +90,7 @@ function Negocio() {
       <div className="botones-contacto">
         <a href={negocio.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</a>
         <a href={negocio.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href={negocio.pdf} download>Descargar PDF</a>
+        <a href={negocio.pdf} download>Descargar Menú o catálogo en PDF</a>
       </div>
     </div>
   );
