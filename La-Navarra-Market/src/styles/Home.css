@@ -31,12 +31,15 @@
 
 
 .banner h1 {
-  color: #c6e441; /* verde intenso como hojas frescas */
-  text-shadow: 
-    0 0 5px #b5ce45,  /* luz difusa clara */
-    0 0 15px #81c784, /* resplandor verde claro */
-    2px 2px 4px rgba(0, 0, 0, 0.3); /* leve sombra para profundidad */;
-  font-size: 2.5rem;
+  color: rgb(221, 224, 37);
+    text-shadow:
+  -2px -2px 0 #000,
+   2px -2px 0 #000,
+  -2px  2px 0 #000,
+   2px  2px 0 #000,
+   0px  0px 5px #000; /* un poco de glow opcional */
+  margin-bottom: 2rem;
+  font-size: 4rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

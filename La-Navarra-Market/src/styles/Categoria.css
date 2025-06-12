@@ -2,16 +2,24 @@
   padding: 2rem;
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, #01220b, #e8f5e9); /* fondo verde muy claro */
+  background-image: url("../assets/pipe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #8f6900;
   text-align: center;
 }
 
 
 .categoria-container h1 {
-  font-size: 2.5rem;
-  color: #3d3c04;
-  text-shadow: 0 0 3px #c5e1a5;
+  font-size: 4rem;
+  color: rgb(221, 224, 37);
+    text-shadow:
+  -2px -2px 0 #000,
+   2px -2px 0 #000,
+  -2px  2px 0 #000,
+   2px  2px 0 #000,
+   0px  0px 5px #000; /* un poco de glow opcional */
   margin-bottom: 2rem;
   letter-spacing: 1px;
 }

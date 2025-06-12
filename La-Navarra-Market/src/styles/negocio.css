@@ -1,15 +1,39 @@
 .negocio-container {
+  position: relative;
   padding: 2rem;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("../assets/LeavesBG.jpg");
+  color: rgb(221, 224, 37);
+  text-shadow:
+  -2px -2px 0 #000,
+   2px -2px 0 #000,
+  -2px  2px 0 #000,
+   2px  2px 0 #000,
+   0px  0px 5px #000; /* un poco de glow opcional */
+;
+  background-image: url("../assets/fondo1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #e7e7e5;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(60, 80, 40, 0.1);
+  overflow: hidden;
 }
+
+.negocio-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* capa oscura encima de la imagen */
+  z-index: 0;
+}
+
+.negocio-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+
 
 .negocio-logo {
   width: 150px;
@@ -24,7 +48,7 @@
   margin: 2rem auto;
   padding: 1.5rem;
   max-width: 400px;
-  background-color: #351300; /* tono tipo papel reciclado */
+  background-color: #011106; /* tono tipo papel reciclado */
   border: 2px solid #a5d6a7;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(85, 107, 47, 0.2);
@@ -66,8 +90,8 @@
   margin: 0.5rem;
   display: inline-block;
   padding: 0.6rem 1.2rem;
-  background: #351300;
-  color: rgb(246, 248, 132);
+  background: #011303;
+  color: rgb(221, 224, 37);
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: bold;
