@@ -2,11 +2,11 @@
   padding: 2rem;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("../assets/fondo-natural.jpg");
+  background-image: url("../assets/LeavesBG.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #869c35;
+  color: #e7e7e5;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(60, 80, 40, 0.1);
 }
@@ -24,7 +24,7 @@
   margin: 2rem auto;
   padding: 1.5rem;
   max-width: 400px;
-  background-color: #f0f8e2; /* tono tipo papel reciclado */
+  background-color: #351300; /* tono tipo papel reciclado */
   border: 2px solid #a5d6a7;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(85, 107, 47, 0.2);
@@ -38,7 +38,7 @@
   display: block;
   margin: 1rem auto 0;
   border-radius: 0.5rem;
-  background-color: #fffef8;
+  background-color: #f8fffa;
 }
 
 .nav-buttons {
@@ -50,7 +50,7 @@
 
 .hand-btn {
   font-size: 2rem;
-  background-color: #c5e1a5;
+  background-color: #011303;
   border: 2px solid #8bc34a;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -66,8 +66,8 @@
   margin: 0.5rem;
   display: inline-block;
   padding: 0.6rem 1.2rem;
-  background: #4caf50;
-  color: white;
+  background: #351300;
+  color: rgb(246, 248, 132);
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: bold;
