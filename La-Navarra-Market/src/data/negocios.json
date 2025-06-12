@@ -1,16 +1,42 @@
-[
-  {
+{
+  "safari-familiar": {
     "nombre": "Safari Familiar Virtual Shop",
     "logo": "/logos/SafariLogo.png",
     "pdf": "/pdfs/SafariFamilyShop.pdf",
-    "whatsapp": "https://wa.me/573001112233",
-    "instagram": "https://instagram.com/panaderia"
+    "whatsapp": "https://wa.me/573116223785",
+    "instagram": "https://instagram.com/panaderia",
+    "categoria": "moda"
   },
-  {
-    "nombre": "Heladería Fresca",
-    "logo": "/logos/heladeria.jpg",
+  "kata-alisados": {
+    "nombre": "Kata Alisados",
+    "logo": "/logos/CataAlisado2.jpg",
     "pdf": "/pdfs/menu-heladeria.pdf",
-    "whatsapp": "https://wa.me/573004445566",
-    "instagram": "https://instagram.com/heladeria"
+    "whatsapp": "https://wa.me/573242267377",
+    "instagram": "https://instagram.com/heladeria",
+    "categoria": "belleza"
+  },
+  "bunueleria-navarra": {
+    "nombre": "Buñuelería La Navarra",
+    "logo": "/logos/Bunueleria.jpg",
+    "pdf": "/PDFs/menuDmonts.pdf",
+    "whatsapp": "https://wa.me/573206536653",
+    "instagram": "https://instagram.com/heladeria",
+    "categoria": "alimentos"
+  },
+  "dmonts-food": {
+    "nombre": "Dmonts Food",
+    "logo": "/logos/Dmonts.jpg",
+    "pdf": "/PDFs/menuDmonts.pdf",
+    "whatsapp": "https://wa.me/573218936622",
+    "instagram": "https://instagram.com/heladeria",
+    "categoria": "alimentos"
+  },
+  "mandisa": {
+    "nombre": "Mandisa",
+    "logo": "/logos/Mandisa.jpg",
+    "pdf": "/pdfs/menu-heladeria.pdf",
+    "whatsapp": "https://wa.me/573218936622",
+    "instagram": "https://instagram.com/heladeria",
+    "categoria": "alimentos"
   }
-]
+}

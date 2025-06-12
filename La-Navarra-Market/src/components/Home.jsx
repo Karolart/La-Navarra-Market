@@ -1,17 +1,30 @@
 import { Link } from "react-router-dom";
-import negocios from "../data/negocios.json";
+import categorias from "../data/categorias.json";
 import "../styles/Home.css";
+//import clickSound from "../assets/click.mp3"; // Asegúrate de tener este archivo en esa ruta
 
 function Home() {
+  const handleClick = () => {
+    const audio = new Audio(clickSound);
+    audio.play();
+  };
+
   return (
     <div className="home-container">
-      <h1>Directorio La Navarra</h1>
+      <div className="banner">
+        <h1>Directorio La Navarra</h1>
+      </div>
+
       <div className="card-list">
-        {Object.entries(negocios).map(([slug, negocio]) => (
-          <Link key={slug} to={`/negocio/${slug}`} className="card">
-            <img src={negocio.logo} alt={negocio.nombre} />
-            <h2>{negocio.nombre}</h2>
-            <p>{negocio.descripcion}</p>
+        {categorias.map((categoria) => (
+          <Link
+            key={categoria.slug}
+            to={`/categoria/${categoria.slug}`}
+            className="card"
+            onClick={handleClick}
+          >
+            <img src={categoria.portada} alt={categoria.nombre} />
+            <h2>{categoria.nombre}</h2>
           </Link>
         ))}
       </div>

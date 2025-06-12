@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "moda",
+    "nombre": "Moda",
+    "portada": "/portadas/ModaIcon.jpg"
+  },
+  {
+    "slug": "belleza",
+    "nombre": "Belleza",
+    "portada": "/portadas/BellezaIcon.jpg"
+  },
+  {
+    "slug": "alimentos",
+    "nombre": "Alimentos",
+    "portada": "/portadas/AlimentosIcon.jpg"
+  },
+   {
+    "slug": "tecnologia",
+    "nombre": "Tecnología",
+    "portada": "/portadas/tecnologia.jpg"
+  },
+   {
+    "slug": "salud",
+    "nombre": "Salud",
+    "portada": "/portadas/Salud.jpg"
+  },
+   {
+    "slug": "deporte",
+    "nombre": "Deporte",
+    "portada": "/portadas/Deporte.jpg"
+  },
+   {
+    "slug": "confecciones",
+    "nombre": "Confecciones",
+    "portada": "/portadas/confecciones.jpg"
+  }
+]
