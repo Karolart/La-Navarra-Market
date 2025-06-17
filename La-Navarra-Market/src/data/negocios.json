@@ -7,14 +7,7 @@
     "instagram": "https://instagram.com/panaderia",
     "categoria": "moda"
   },
-  "kata-alisados": {
-    "nombre": "Kata Alisados",
-    "logo": "/logos/CataAlisado2.jpg",
-    "pdf": "/pdfs/menu-heladeria.pdf",
-    "whatsapp": "https://wa.me/573242267377",
-    "instagram": "https://instagram.com/heladeria",
-    "categoria": "belleza"
-  },
+ 
   "bunueleria-navarra": {
     "nombre": "Buñuelería La Navarra",
     "logo": "/logos/Bunueleria.jpg",
@@ -40,11 +33,11 @@
     "categoria": "alimentos"
   },
   "mandisa": {
-    "nombre": "Mandisa",
-    "logo": "/logos/Mandisa.jpg",
-    "pdf": "/pdfs/menu-heladeria.pdf",
-    "whatsapp": "https://wa.me/573218936622",
-    "instagram": "https://instagram.com/heladeria",
+    "nombre": "Chorizos Asados",
+    "logo": "/logos/Chorizos.jpg",
+    "pdf": "/PDFs/Chorizos.pdf",
+    "whatsapp": "https://wa.me/573104709163",
+    "instagram": "https://instagram.com/Chorizos",
     "categoria": "alimentos"
   }
 }
